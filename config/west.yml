@@ -1,9 +1,9 @@
 manifest:
   remotes:
-    - name: zmk-chocBoard
+    - name: zmk
       url-base: https://github.com/xpsking
   projects:
-    - name: zmk-chocBoard
+    - name: zmk
       remote: zmk
       revision: main
       import: app/west.yml
