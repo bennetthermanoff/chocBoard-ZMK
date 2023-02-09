@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: zmk-chocBoard
+      url-base: https://github.com/xpsking
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: zmk-chocBoard
       revision: main
       import: app/west.yml
   self:
